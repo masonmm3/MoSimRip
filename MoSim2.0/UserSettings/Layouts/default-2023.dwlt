@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 397
     height: 617
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -792,9 +792,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -3.495045, y: 11.85383, z: -8.844367}
+    m_Target: {x: 630.74243, y: 300.3216, z: 133.32837}
     speed: 2
-    m_Value: {x: -3.495045, y: 11.85383, z: -8.844367}
+    m_Value: {x: 630.74243, y: 300.3216, z: 133.32837}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -840,13 +840,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.005893186, y: 0.99011046, z: -0.13328281, w: 0.043705594}
+    m_Target: {x: -0.019806424, y: 0.015906874, z: -0.00032617725, w: -0.99969214}
     speed: 2
-    m_Value: {x: 0.0058275433, y: 0.99029547, z: -0.13179566, w: 0.043713775}
+    m_Value: {x: -0.018306592, y: 0.015907109, z: -0.00030231065, w: -0.99970585}
   m_Size:
-    m_Target: 35.499702
+    m_Target: 382.38812
     speed: 2
-    m_Value: 33.97101
+    m_Value: 382.38812
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -918,7 +918,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c2faffff7c850000
+      m_ExpandedIDs: 8cf9ffffc2faffff8c180200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1090,7 +1090,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1100,15 +1100,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\FRC6366\MoSimRip\MoSim2.0
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 94170200
-    m_LastClickedID: 137108
+    scrollPos: {x: 0, y: 155}
+    m_SelectedIDs: 02180200
+    m_LastClickedID: 137218
     m_ExpandedIDs: 000000009417020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
