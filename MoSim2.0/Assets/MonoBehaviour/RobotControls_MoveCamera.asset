@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1472958050, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: RobotControls/MoveCamera
+  m_EditorClassIdentifier:
+  m_Asset: {fileID: 11400000, guid: 1aaccf5fd614fcc47a8b135d98ad3f28, type: 2}
+  m_ActionId: 5df2fb3f-75ff-4f84-9b9e-e02231ca2068

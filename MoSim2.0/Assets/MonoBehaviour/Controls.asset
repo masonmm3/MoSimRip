@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 330670497, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: Controls
+  m_EditorClassIdentifier:
+  m_ActionMaps:
+  - m_Name: RobotControls
+    m_Id: 89a7e69c-f53b-4f6c-8858-8cc9ef3387ad
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Translate
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: f1728e11-e8a3-44e1-afa8-dc82bfa2b09c
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Rotate
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: c1a011bd-4a6c-43e8-9628-9f67957f5bd6
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Shoot
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 366e5f2a-50aa-4e72-9970-81185afa77ed
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Amp
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: c6a5ad7d-fe75-4a29-99de-247f4ccb82a4
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: AmpSpeaker
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 5bb25259-bb95-4bbb-acb9-b2858aeaca3f
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: RestartGame
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: d8a775e3-36d2-407c-bda3-b40c9aef891f
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Intake
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a9b12e82-ded3-41f0-98ed-4abebfeb9858
+      m_Processors:
+      m_Interactions: Hold
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Menu
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 5d2dc4e2-ab57-42cf-a74d-61aabd314d36
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveCamera
+      m_Type: 0
+      m_ExpectedControlType: Dpad
+      m_Id: 5df2fb3f-75ff-4f84-9b9e-e02231ca2068
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: AlignRobot
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 90202e6a-1825-4230-9a97-f394ff7c541c
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Climb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: aae796ef-4906-4427-8b2d-d633ff769f3f
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: 0a0ab686-a95e-408e-bdf1-1c03a7b38753
+      m_Path: '<Gamepad>/leftStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Translate
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: 2fbd881d-31dc-414b-9e9d-5d39e0bbe600
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Translate
+      m_Flags: 4
+    - m_Name: WASD [Keyboard]
+      m_Id: 70b544ef-70a1-44b2-827e-6ad86ecd6bc9
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Translate
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 6dee444c-1ba6-4196-98aa-15e4812dacd7
+      m_Path: '<Keyboard>/w'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Translate
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 7d8c43ea-2083-428a-83c7-e2d1f7f9f06f
+      m_Path: '<Keyboard>/s'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Translate
+      m_Flags: 8
+    - m_Name: left
+      m_Id: e87b236d-7176-4311-b90f-fdb104b1046d
+      m_Path: '<Keyboard>/a'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Translate
+      m_Flags: 8
+    - m_Name: right
+      m_Id: cb92fe9a-a4d2-4e1d-ba5e-ecbf3066f227
+      m_Path: '<Keyboard>/d'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Translate
+      m_Flags: 8
+    - m_Name:
+      m_Id: f1b143fb-3c9f-490a-a07a-b42f6ae42bf4
+      m_Path: '<Gamepad>/rightStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Rotate
+      m_Flags: 0
+    - m_Name: Rotate
+      m_Id: 91b6ec23-4ea6-44ea-aec8-0c74f90a7b80
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Rotate
+      m_Flags: 4
+    - m_Name: left
+      m_Id: 2701e04a-4b0f-493a-b5c0-dac93f7210b1
+      m_Path: '<Keyboard>/j'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Rotate
+      m_Flags: 8
+    - m_Name: right
+      m_Id: b458d0fa-285c-4dfa-84c1-60220fdd0b7a
+      m_Path: '<Keyboard>/k'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Rotate
+      m_Flags: 8
+    - m_Name:
+      m_Id: dc2ab3af-233f-4a37-95f4-cfe273aafc92
+      m_Path: '<Gamepad>/rightTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Shoot
+      m_Flags: 0
+    - m_Name:
+      m_Id: cd4eefe6-b9b5-42c9-baa4-278f26cc7a71
+      m_Path: '<Keyboard>/space'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Shoot
+      m_Flags: 0
+    - m_Name:
+      m_Id: f241d2e7-81e8-44ee-845b-6c844f183cf2
+      m_Path: '<Gamepad>/buttonNorth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Amp
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7efeffcf-1004-4280-9c9d-668a8bd573da
+      m_Path: '<Keyboard>/q'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Amp
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7bc44128-0b1c-47ad-95cb-89575e4cd16e
+      m_Path: '<Gamepad>/rightShoulder'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: AmpSpeaker
+      m_Flags: 0
+    - m_Name:
+      m_Id: a26093cb-efa6-49d0-a6de-f31bca5aaeae
+      m_Path: '<Keyboard>/e'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: AmpSpeaker
+      m_Flags: 0
+    - m_Name:
+      m_Id: bfe5428f-8c65-4087-845a-2d108585bcc1
+      m_Path: '<Gamepad>/start'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: RestartGame
+      m_Flags: 0
+    - m_Name:
+      m_Id: 4b247262-7361-4517-9302-8aa1d00cc4d7
+      m_Path: '<Keyboard>/r'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: RestartGame
+      m_Flags: 0
+    - m_Name:
+      m_Id: f47ea333-eea9-4257-a12d-db25c82be37e
+      m_Path: '<Gamepad>/leftTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Intake
+      m_Flags: 0
+    - m_Name:
+      m_Id: f893db64-49b9-4f3e-8322-bcf5cc6af2a3
+      m_Path: '<Keyboard>/shift'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Intake
+      m_Flags: 0
+    - m_Name:
+      m_Id: d4637fa5-ab88-4905-93c6-1c034a9361c0
+      m_Path: '<Gamepad>/select'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Menu
+      m_Flags: 0
+    - m_Name:
+      m_Id: 1bba04c3-b371-4748-8e82-41a5c816516b
+      m_Path: '<Keyboard>/m'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Menu
+      m_Flags: 0
+    - m_Name:
+      m_Id: 791e1592-261f-4b17-8cf8-7759295ae96a
+      m_Path: '<Gamepad>/dpad'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: MoveCamera
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: 01c0d6a1-6a95-4279-b766-16de82af644c
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: MoveCamera
+      m_Flags: 4
+    - m_Name: MoveCamera [Keyboard]
+      m_Id: c0f893f0-b3ef-441e-965e-9a4212980cf6
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: MoveCamera
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 12c6d0ee-22be-432f-9275-46291098483f
+      m_Path: '<Keyboard>/upArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: MoveCamera
+      m_Flags: 8
+    - m_Name: down
+      m_Id: f80bb10c-fa2f-4f15-920b-dbb4386389bc
+      m_Path: '<Keyboard>/downArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: MoveCamera
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 72613016-77d8-4ba6-af70-460bf471f106
+      m_Path: '<Keyboard>/leftArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: MoveCamera
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 26dbeaa1-5601-4bf1-a063-30f425adc4b9
+      m_Path: '<Keyboard>/rightArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: MoveCamera
+      m_Flags: 8
+    - m_Name:
+      m_Id: d1668e35-8b84-4258-b397-619618a41132
+      m_Path: '<Gamepad>/leftShoulder'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: AlignRobot
+      m_Flags: 0
+    - m_Name:
+      m_Id: 118ad971-88e2-4f4a-814e-6d4c6bd31379
+      m_Path: '<Gamepad>/leftShoulder'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Gamepad/Keyboard
+      m_Action: Climb
+      m_Flags: 0
+  m_ControlSchemes:
+  - m_Name: Gamepad/Keyboard
+    m_BindingGroup: Gamepad/Keyboard
+    m_DeviceRequirements:
+    - m_ControlPath: '<Gamepad>'
+      m_Flags: 0
+    - m_ControlPath: '<Keyboard>'
+      m_Flags: 0

@@ -1,0 +1,174 @@
+{
+    "name": "SimpleRobot",
+    "maps": [
+        {
+            "name": "Robot",
+            "id": "01e93527-f56a-415a-92b0-78fd69225d19",
+            "actions": [
+                {
+                    "name": "OnTranslate",
+                    "type": "Value",
+                    "id": "690e4af8-8735-45c4-856a-f21b1bc763ec",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "OnRotate",
+                    "type": "Value",
+                    "id": "f03b6de8-83e9-4987-95da-740d11afebd8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "OnIntake",
+                    "type": "Button",
+                    "id": "8be7a30b-5195-4f5e-bdaa-b5b5ccafa24b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OnShoot",
+                    "type": "Button",
+                    "id": "23700cbb-b398-47e6-8cca-c67f19e55d29",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OnAmp",
+                    "type": "Button",
+                    "id": "cd202f2f-caa3-44ac-a6ac-5a42b7558a1c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OnAmplify",
+                    "type": "Button",
+                    "id": "45966049-e556-41d9-957e-89d7d6530515",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OnReset",
+                    "type": "Button",
+                    "id": "793fc8ef-7094-46c7-87f7-59dce23d1b96",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OnMoveCamera",
+                    "type": "Value",
+                    "id": "c40e6bfd-ff0d-4c6c-9dad-fb56669d98ee",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f191b15a-4b63-4e6b-96a9-70a2def69787",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnTranslate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c2a21e0-d734-40eb-b715-517dbaa2bbdf",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnRotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "054c3436-d451-4af2-8032-0833512240ce",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnIntake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4ab0cbe-9d22-44d4-b9ab-cdd951e1a8b5",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnShoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "273beb75-d3b5-4d69-a750-679b0771a9fc",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnAmp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "03fb7bb4-b92a-4fab-8e04-9dd70e05a41d",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnAmplify",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4648d8b4-dd9b-4164-aa25-40c736951fab",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnReset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6bac0b3-10ea-4b0c-9027-45f1063d8660",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnMoveCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

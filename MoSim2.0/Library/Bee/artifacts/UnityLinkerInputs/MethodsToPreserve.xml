@@ -1,0 +1,73 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="BlueRobotManager">
+			<method name="BackOption"/>
+			<method name="NextOption"/>
+		</type>
+		<type fullname="DetectRingCollisions">
+			<method name="OnAmp"/>
+			<method name="OnAmp"/>
+			<method name="OnAmp"/>
+			<method name="OnShoot"/>
+			<method name="OnShoot"/>
+			<method name="OnShoot"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="PlayGame"/>
+			<method name="QuitGame"/>
+			<method name="SaveMoveSpeed"/>
+			<method name="SaveRotateSpeed"/>
+			<method name="SetCamera"/>
+			<method name="SetFullscreen"/>
+			<method name="SetGamemode"/>
+			<method name="SetQuality"/>
+			<method name="ToggleEndVideo"/>
+			<method name="ToggleSingleplayerAlliance"/>
+		</type>
+		<type fullname="RedRobotManager">
+			<method name="BackOption"/>
+			<method name="NextOption"/>
+		</type>
+		<type fullname="RobotAlignToSpeaker">
+			<method name="OnAmp"/>
+			<method name="OnAmp"/>
+			<method name="OnShoot"/>
+			<method name="OnShoot"/>
+		</type>
+		<type fullname="SwerveDriveController">
+			<method name="OnAmpSpeaker"/>
+			<method name="OnAmpSpeaker"/>
+			<method name="OnAmpSpeaker"/>
+			<method name="OnIntake"/>
+			<method name="OnIntake"/>
+			<method name="OnIntake"/>
+			<method name="OnRestart"/>
+			<method name="OnRestart"/>
+			<method name="OnRotate"/>
+			<method name="OnRotate"/>
+			<method name="OnRotate"/>
+			<method name="OnTranslate"/>
+			<method name="OnTranslate"/>
+			<method name="OnTranslate"/>
+		</type>
+		<type fullname="ToggleScoreCard">
+			<method name="ToggleCard"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
