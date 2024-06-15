@@ -11,3 +11,5 @@ As this is a 90% rip many things have not been completely fixed or repaired.
   5. The physics setting are slightly tweaked (improved joint stability)
 
 Please understand and respect the Sim Developer when making mods based off this and understand this repo and the game may make sudden changes obsoleting all pre-existing mods as the project is still incomplete and missing important elements to reach its goal.
+
+Most importantly respect and follow the principle of the goal of open source,
