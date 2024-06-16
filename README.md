@@ -19,3 +19,4 @@ FAQ
 2. Please have visual studio code downloaded as it references vs code. If you dont wish to use this editor it can be changed after opening.
 3. If you download the repo open the subfolder MoSim2.0 in unity, not the parent and not aux files.
 4. This is a rip, bugs are expected.
+5. Compatibility is only gaurenteed for UNity 2023.2.18f1
