@@ -11,3 +11,11 @@ Beacause this is a 90% rip, the following parts of the game are not fully implem
 Please understand and respect the Sim Developer when making mods based off this and understand this repo and the game may make sudden changes obsoleting all pre-existing mods as the project is still incomplete and missing important elements to reach its goal.
 
 Most importantly respect and follow the principle of open source when modding.
+
+
+FAQ
+
+1. This is a rip, it is not original and as such may contain compliation errors specific to your download, the upload containts no errors.
+2. Please have visual studio code downloaded as it references vs code. If you dont wish to use this editor it can be changed after opening.
+3. If you download the repo open the subfolder MoSim2.0 in unity, not the parent and not aux files.
+4. This is a rip, bugs are expected.
