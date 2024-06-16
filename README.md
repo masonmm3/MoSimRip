@@ -20,3 +20,4 @@ FAQ
 3. If you download the repo open the subfolder MoSim2.0 in unity, not the parent and not aux files.
 4. This is a rip, bugs are expected.
 5. Compatibility is only gaurenteed for UNity 2023.2.18f1
+6. The rip contains 3 warnings. Just ignore these they arent performance related.
